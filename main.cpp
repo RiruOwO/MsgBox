@@ -134,4 +134,4 @@ int main(void) {
 		MessageBoxA(owner, result_msg.c_str(), "診断結果", MB_OK);
 
 	return 0;
-}
+}	
