@@ -133,5 +133,10 @@ int main(void) {
 		std::string result_msg = "Score is " + std::to_string(score) + " points";
 		MessageBoxA(owner, result_msg.c_str(), "診断結果", MB_OK);
 
+	// Six Seven XD
+		if (score == 67) {
+			MessageBoxA(owner, "6, 7 !!", "Bruh", MB_ICONEXCLAMATION);
+		}
+
 	return 0;
 }	
